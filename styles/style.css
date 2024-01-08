@@ -105,10 +105,37 @@ nav a {
 }
 
 /* main content style */
+ main{
+    width: 1140px;
+    margin: 0 auto;
+ }
+
 /* about section style */
 .about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+
+}
+.info-title{
+    color: var #757575;
+font-size: 20px;
+font-weight: 400;
+margin: 0;
+   
+}
+.info-description{
+    color: var #474747;
+font-size: 20px;
+font-weight: 700;
+margin: 0;
 }
